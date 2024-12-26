@@ -5,7 +5,6 @@
 #include <unordered_map>
 #include <variant>
 
-
 class Value {
 public:
     using ValueType = std::variant<int, std::string>;
@@ -37,5 +36,4 @@ public:
     void assign(std::string name, Value& value);
 };
 
-
-#endif 
+#endif

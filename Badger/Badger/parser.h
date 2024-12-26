@@ -31,7 +31,7 @@ private:
     bool match(const std::string& type);
 
     ASTNode* parse_program();
-    ASTNode* parse_statement();  
+    ASTNode* parse_statement();
     ASTNode* parse_expression();
     ASTNode* parse_term();
     ASTNode* parse_factor();

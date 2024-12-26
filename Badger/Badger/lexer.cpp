@@ -60,7 +60,6 @@ std::vector<Token> Lexer::tokenize() {
 	return tokens;
 }
 
-
 char Lexer::advance() {
 	return input[current_position++];
 }

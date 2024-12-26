@@ -24,5 +24,4 @@ private:
 	Token read_identifier();
 };
 
-
 #endif

@@ -2,7 +2,7 @@
 #include <iostream>
 #include <stdexcept>
 
-Parser::Parser(const std::vector<Token>& tokens) : tokens(tokens), current_position(0){}
+Parser::Parser(const std::vector<Token>& tokens) : tokens(tokens), current_position(0) {}
 
 ASTNode* Parser::parse() {
     return parse_program();
@@ -34,13 +34,15 @@ ASTNode* Parser::parse_program() {
     }
     return result;
 }
+
 ASTNode* Parser::parse_statement() {
     if (match("PRINT")) {
         ASTNode* expr = parse_expression();
         return new ASTNode("PRINT", "", expr, nullptr);
     }
+
     if (peek().type == "VARIABLE") {
-        Token varToken = advance(); 
+        Token varToken = advance();
 
         if (match("EQUALS")) {
             ASTNode* expr = parse_expression();
@@ -50,6 +52,7 @@ ASTNode* Parser::parse_statement() {
             current_position--;
         }
     }
+
     return parse_expression();
 }
 
