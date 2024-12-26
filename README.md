@@ -19,13 +19,12 @@ y = x * 2;
 print y;
 
 **Sample Code**
-x = 10;
-y = x + 20;
-print y;
-z = y * 2;
-print z;
+
+![image](https://github.com/user-attachments/assets/4f0cd1f5-f979-4a8c-a6b4-95079e46f229)
+
 
 **Output**
+
 ![image](https://github.com/user-attachments/assets/fb1e015f-6617-4ed1-9229-4ba596583bf4)
 
 
