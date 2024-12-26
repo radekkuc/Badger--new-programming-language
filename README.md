@@ -25,7 +25,7 @@ print y;
 
 **Output**
 
-![image](https://github.com/user-attachments/assets/fb1e015f-6617-4ed1-9229-4ba596583bf4)
+![image](https://github.com/user-attachments/assets/ca348504-4e76-48a5-8452-d935e6747733)
 
 
 
