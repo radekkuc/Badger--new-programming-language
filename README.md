@@ -1,2 +1,34 @@
 # Badger--new-programming-language
-New basic interpreted programming language
+Badger is a simple interpreted programming language created in C++. Main goal of this language was to demonstrate fundamentals of language design and how interpreters works. It supports variables, arithemtic operations and expressions.
+
+**Features**
+1. Variables
+- You can create variables and assign integer values to them.
+- Example x = 42;
+2. Arithemitc operations
+- Supported operators: +, -, *, /.
+- Example: y = x + 10;
+3. Printing values
+- The print statement allows you to display variable values or expression results.
+- Example: print x;
+4. Sequence of instructions
+- You can execute multiple instructions in a single session.
+- Example:
+x = 5;
+y = x * 2;
+print y;
+
+**Sample Code**
+x = 10;
+y = x + 20;
+print y;
+z = y * 2;
+print z;
+
+**Output**
+![image](https://github.com/user-attachments/assets/fb1e015f-6617-4ed1-9229-4ba596583bf4)
+
+
+
+
+
