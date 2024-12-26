@@ -27,7 +27,10 @@ print y;
 
 ![image](https://github.com/user-attachments/assets/ca348504-4e76-48a5-8452-d935e6747733)
 
-
+**Planned Features**
+- Support for string handling and operations.
+- Conditional statements and loops.
+- User-defined functions.
 
 
 
